@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  margin:0;
+}
+
+
+/*TOP MARGIN WHITE*/
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  width:100vw;
+  height:100vh;
+}
+/*.container:nth-child(an+b)*/
+.white-margin {
+	background-color: white;
+	height: 4vh;
+
+}
+
+
+.left-side, .right-side{
+  margin-top: 0;
+  width:50vw;
+  height:96vh;
+  float: left;
+}
+
+.left-side{
+  background-image: url(https://hd.unsplash.com/photo-1428546400084-dc2a84db68bb);
+  background-size: 100vw auto;
+  overflow: hidden;
+}
+
+.right-side {
+  background-image: url(https://hd.unsplash.com/photo-1431540015161-0bf868a2d407);
+  background-size: 100vw auto;
+	background-color: white;
+  overflow: hidden;
+}
+
+.right-orange {
+  background-color: #B83E09;
+  /*margin-top:40px;*/
+  width: 95%;
+  height: 95%;
+  opacity: 0.90;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.left-black {
+  background-color: #000;
+  /*margin-top:40px;*/
+  width: 95%;
+  height: 90%;
+  opacity: 0.80;
+  display: flex;
+  float: right;
+  text-align: center;
+  align-items: center;
+}
+
+.white-content {
+  color:white;
+  margin:auto;
+}
+
+
+.big-guy{
+  font-size: 200px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.little-guy{
+  font-size: 30px;
+  font-family: 'Petit Formal Script', cursive;
+}
+.parens{
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*OTHER TEXT:
+font-family: 'Oswald', sans-serif;*/
+
+
+/*
+.left-black, .right-orange:hover {
+transform: scale()
+}*/
